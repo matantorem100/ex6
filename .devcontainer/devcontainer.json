@@ -1,0 +1,19 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/cpp:latest",
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools",
+        "ms-vscode.cpptools-extension-pack",
+        "ms-vscode.cmake-tools",
+        "twxs.cmake"
+      ],
+      "settings": {
+        "C_Cpp.default.cppStandard": "c++17",
+        "C_Cpp.default.cStandard": "c99",
+        "chat.disableAIFeatures": true
+      }
+    }
+  }
+}
